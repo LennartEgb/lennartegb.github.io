@@ -1,0 +1,13 @@
+# Site settings
+title: Lennart Egbers
+email: me@egbers.dev
+description: > # > means to ignore newlines until "baseurl:"
+  This is the developer page of Lennart Egbers.
+  He is an Android developer currently working at ApoSync.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lennartegbers.dev" # the base hostname & protocol for your site
+twitter_username: LennEgb 
+github_username:  lennartEgb
+
+# Build settings
+markdown: kramdown
