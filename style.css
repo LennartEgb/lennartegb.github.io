@@ -29,6 +29,10 @@ h3 {
   box-shadow: 1px 1px 10px 1px #88888833;
 }
 
+svg:hover {
+  fill: #333333;
+}
+
 .icons {
   display: flex;
   flex-direction: row;
