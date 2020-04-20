@@ -94,13 +94,17 @@
  */
 .site-footer {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-    padding: $spacing-unit 0;
+    padding: $padding-default 0;
     background-color: #F4F4F4;
-    position: absolute;
     width: 100%;
     bottom: 0;
-    // margin-top: auto;
-    margin-top: 20pt;
+    text-align: center;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
 }
 
 .footer-heading {
@@ -239,5 +243,14 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+.home {
+    text-align: center;
+    .img {
+        border-radius: 200px;
+        width: 72px;
+        height: 72px;
     }
 }
