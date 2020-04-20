@@ -2,15 +2,16 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
     min-height: 56px;
+    background-color: #F4F4F4;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
+    font-family: Fira Code;
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
@@ -92,8 +93,14 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
     padding: $spacing-unit 0;
+    background-color: #F4F4F4;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    // margin-top: auto;
+    margin-top: 20pt;
 }
 
 .footer-heading {
