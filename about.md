@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hey, I am Lennart and develop Android apps in Kotlin.
+Hey, I am Lennart and I develop Android apps in Kotlin.
