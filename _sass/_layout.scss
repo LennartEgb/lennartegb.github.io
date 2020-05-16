@@ -229,7 +229,7 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: larger;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -237,7 +237,7 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: medium;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -261,3 +261,21 @@
         height: 72px;
     }
 }
+
+/**
+ * Resume
+ */
+.resume {
+    .workplace {
+        margin-bottom: 0px;
+    }
+    .duration {
+        margin-bottom: 0px;
+        color: $grey-color-light;
+    }
+    .company {
+        margin-top: 0px;
+        color: $grey-color-dark;
+    }
+}
+ 
