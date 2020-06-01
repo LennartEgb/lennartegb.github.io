@@ -187,7 +187,7 @@
     font-size: 20px;
 }
 
-.post-list {
+.project-list {
     margin-left: 0;
     list-style: none;
 
@@ -245,8 +245,6 @@
     }
 
     h4 {
-        font-size: 20px;
-
         @include media-query($on-laptop) {
             font-size: 18px;
         }
@@ -257,25 +255,7 @@
     text-align: center;
     .img {
         border-radius: 200px;
-        width: 72px;
-        height: 72px;
+        max-width: 5500px;
+        max-height: 5500px;
     }
 }
-
-/**
- * Resume
- */
-.resume {
-    .workplace {
-        margin-bottom: 0px;
-    }
-    .duration {
-        margin-bottom: 0px;
-        color: $grey-color-light;
-    }
-    .company {
-        margin-top: 0px;
-        color: $grey-color-dark;
-    }
-}
- 
