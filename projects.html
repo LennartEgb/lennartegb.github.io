@@ -8,10 +8,10 @@ permalink: /projects/
 
   <h1 class="page-heading">Projects</h1>
 
-  <ul class="post-list">
+  <ul class="project-list">
     {% for post in site.posts %}
       
-    <li>
+    <li class="card">
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -20,7 +20,5 @@ permalink: /projects/
     
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
