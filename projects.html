@@ -4,18 +4,38 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="blog">
+<div class="blog container">
 
-  <h1 class="page-heading">Projects</h1>
+  <h1>Projects</h1>
 
   <ul class="project-list">
     {% for post in site.posts %}
       
-    <li class="card">
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
+    <li class="card rounded-4 border-0 shadow row p-0">
+      <a class="p-0" style="text-decoration: none; color: inherit;" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="row no-gutters">
+          <div class="col-3">
+              <img class="img-fluid card-img" src={{post.imgPath}} alt="">
+          </div>
+          <div class="col-9">
+            <div class="card-body">
+              <h5>{{ post.title }}</h5>
+              <p class="card-text">{{ post.description }}</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="card-header border-0">
+          <img src="{{ post.imgPath }}" alt="">
+      </div>
+        <div class="card-block px-2">
+          <span class="post-meta">{{ post.date | date: "%Y" }}</span>
+          <h2>{{ post.title }}</h2>
+        </div>
+
+        
+      </a> -->
     </li>
     
     {% endfor %}

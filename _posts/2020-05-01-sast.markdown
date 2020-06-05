@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "FaceEmotions and FaceBiometrics"
+description: "Analysing a security cameras video stream on faces and detecting emotion and biometrics."
+date:   2020-05-01 00:00:00
+duration: "Since May 2020"
+categories: jekyll update
+imgPath: "/img/sast.svg"
+---
+
+Analysing a security cameras video stream on faces. When a face is detected, the emotion will be recognised and categorised in one of the emotions: Anger, Disgust, Fear, Happiness, Neutral, Sadness and Surprise. The recognised expressions can be analysed in ranges of the last hour, day, week and year.
+
+![SAST FaceEmotions](/img/sast_sample.jpeg)

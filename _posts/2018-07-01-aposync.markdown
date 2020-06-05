@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "ApoSync Android App"
+description: "A productivity app targeted specifically at the employees of german pharmacies."
+date:   2018-07-01 00:00:00
+duration: "July 2018 - April 2020"
+categories: work
+imgPath: "/img/aposync.svg"
+---
+

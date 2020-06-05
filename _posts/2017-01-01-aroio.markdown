@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2020-04-18 14:46:12
+title:  "ABACUS electronics"
+description: "Android app to configure a hardware Aroio-Networkstreamer."
+duration: "January 2017 until August 2017"
 categories: jekyll update
+imgPath: "/img/abacus.svg"
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.

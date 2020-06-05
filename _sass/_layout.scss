@@ -32,7 +32,7 @@
         display: none;
     }
 
-    .page-link {
+    .page-linker {
         color: $text-color;
         line-height: $base-line-height;
 
@@ -70,17 +70,17 @@
             }
         }
 
-        .trigger {
+        .nav-linker {
             clear: both;
             display: none;
         }
 
-        &:hover .trigger {
+        &:hover .nav-linker {
             display: block;
             padding-bottom: 5px;
         }
 
-        .page-link {
+        .page-linker {
             display: block;
             padding: 5px 10px;
         }
@@ -258,4 +258,14 @@
         max-width: 5500px;
         max-height: 5500px;
     }
+}
+
+/**
+* Resume
+*/
+.duration {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: small;
+    color: #426187;
 }
