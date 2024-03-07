@@ -10,12 +10,28 @@ html, body {
 h1 {  
   font-family: 'Fira Code', monospace;
   color: #333333;
+  text-align: center;
+  margin: 0px;
+  padding: 0px; 
 }
 h2 {  
   font-family: 'Fira Code', monospace;
+  text-align: center;
 }
 h3 {  
   font-family: 'Fira Code', monospace;
+  text-align: center;
+  margin-block: 0;
+}
+
+.icon {
+    margin-right: 8pt;
+}
+
+a {
+  color: #444444;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .card {
@@ -26,7 +42,19 @@ h3 {
   padding-top: 12pt;
   padding-right: 16pt;
   padding-bottom: 12pt;
-  box-shadow: 1px 1px 10px 1px #88888833;
+  box-shadow: 1pt 1pt 10pt 1pt #88888833;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+  .card {
+      width: 100%;
+  }
+}
+
+svg {
+    fill: #848484;
+    height: 32;
 }
 
 svg:hover {
@@ -36,6 +64,7 @@ svg:hover {
 .icons {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .outer {
@@ -55,6 +84,5 @@ svg:hover {
 .inner {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
-  /*whatever width you want*/
+  width: 350pt;
 }
