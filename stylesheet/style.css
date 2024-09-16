@@ -1,51 +1,57 @@
-html, body {
-  background-color: #EAEAEA;
-  font-family: 'Roboto', sans-serif;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: #848484;
+html,
+body {
+    background-color: #eaeaea;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #848484;
 }
 
-h1 {  
-  font-family: 'Fira Code', monospace;
-  color: #333333;
-  text-align: center;
-  margin: 0px;
-  padding: 0px; 
+h1 {
+    font-family: "Fira Code", monospace;
+    color: #333333;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
-h2 {  
-  font-family: 'Fira Code', monospace;
-  text-align: center;
+h2 {
+    font-family: "Fira Code", monospace;
+    text-align: center;
+    color: #555;
 }
-h3 {  
-  font-family: 'Fira Code', monospace;
-  text-align: center;
-  margin-block: 0;
+h3 {
+    font-family: "Fira Code", monospace;
+    text-align: center;
+    margin-block: 0;
 }
 
 a {
-  color: #444444;
-  font-weight: bold;
-  text-decoration: none;
+    color: #444444;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .card {
-  background-color: #F4F4F4;
-  max-width: 400pt;
-  border-radius: 4pt;
-  padding-left: 16pt;
-  padding-top: 12pt;
-  padding-right: 16pt;
-  padding-bottom: 12pt;
-  box-shadow: 1pt 1pt 10pt 1pt #88888833;
+    background-color: #f4f4f4;
+    max-width: 400pt;
+    border-radius: 4pt;
+    padding-left: 16pt;
+    padding-top: 12pt;
+    padding-right: 16pt;
+    padding-bottom: 12pt;
+    box-shadow: 1pt 1pt 10pt 1pt #88888833;
+}
+
+code {
+    font-family: "Fira Code", monospace;
 }
 
 @media only screen and (max-width: 620px) {
     /* For mobile phones: */
-  .card {
-      width: 100%;
-  }
+    .card {
+        width: 100%;
+    }
 }
 
 svg {
@@ -54,31 +60,31 @@ svg {
 }
 
 svg:hover {
-  fill: #333333;
+    fill: #333333;
 }
 
 .icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .outer {
-  display: table;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .middle {
-  display: table-cell;
-  vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .inner {
-  margin-left: auto;
-  margin-right: auto;
-  width: 350pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350pt;
 }
