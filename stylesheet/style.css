@@ -42,15 +42,6 @@ code {
     font-family: "Fira Code", monospace;
 }
 
-svg {
-    fill: #848484;
-    height: 32;
-}
-
-svg:hover {
-    fill: #333333;
-}
-
 .icons {
     display: flex;
     flex-direction: row;
@@ -60,6 +51,15 @@ svg:hover {
         display: flex;
         align-items: center;
         justify-content: center;
+
+        svg {
+            fill: #848484;
+            transition: fill 0.3s ease;
+        }
+
+        svg:hover {
+            fill: #333333;
+        }
     }
 }
 
