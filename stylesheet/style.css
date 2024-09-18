@@ -55,6 +55,12 @@ svg:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .outer {
