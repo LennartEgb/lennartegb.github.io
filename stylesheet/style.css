@@ -16,67 +16,25 @@ body {
     box-sizing: border-box;
 }
 
-h1 {
+h1,
+h2 {
     font-family: "Fira Code", monospace;
+}
+
+h1 {
     color: #333333;
     margin-top: 0;
 }
 
 h2 {
-    font-family: "Fira Code", monospace;
     color: #555;
     margin-top: 1.5em;
-}
-
-h3 {
-    font-family: "Fira Code", monospace;
-    text-align: center;
-    margin-block: 0;
 }
 
 a {
     color: #444444;
     font-weight: bold;
     text-decoration: none;
-}
-
-code {
-    font-family: "Fira Code", monospace;
-}
-
-.icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 1em;
-
-    a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        svg {
-            fill: #848484;
-            transition: fill 0.3s ease;
-        }
-
-        svg:hover {
-            fill: #333333;
-        }
-    }
-}
-
-.container {
-    max-width: 800px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    max-height: 100vh;
-    overflow-y: auto;
-}
-
-h1, h2 {
-    margin-top: 0;
 }
 
 section {
@@ -87,14 +45,20 @@ p {
     line-height: 1.6;
 }
 
-a {
-    color: #444444;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 code {
     font-family: "Fira Code", monospace;
+}
+
+svg {
+    height: 32px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
 }
 
 .icons {
@@ -109,11 +73,14 @@ code {
 
         svg {
             fill: #848484;
-            transition: fill 0.3s ease;
+            scale: 1;
+            transition: all 0.3s ease;
         }
 
         svg:hover {
             fill: #333333;
+            scale: 1.1;
+            transition: all 0.3s ease;
         }
     }
 }
