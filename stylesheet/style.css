@@ -3,22 +3,19 @@ body {
     background-color: #eaeaea;
     font-family: "Roboto", sans-serif;
     height: 100%;
-    margin: 0;
-    padding: 0;
     color: #848484;
 }
 
 h1 {
     font-family: "Fira Code", monospace;
     color: #333333;
-    text-align: center;
-    margin: 0px;
 }
+
 h2 {
     font-family: "Fira Code", monospace;
-    text-align: center;
     color: #555;
 }
+
 h3 {
     font-family: "Fira Code", monospace;
     text-align: center;
@@ -29,13 +26,6 @@ a {
     color: #444444;
     font-weight: bold;
     text-decoration: none;
-}
-
-section {
-    padding-top: 12pt;
-    padding-bottom: 12pt;
-    max-width: 400pt;
-    margin: auto;
 }
 
 code {
@@ -60,42 +50,5 @@ code {
         svg:hover {
             fill: #333333;
         }
-    }
-}
-
-.outer {
-    display: table;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.inner {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 150pt;
-}
-
-@media only screen and (max-width: 700px) {
-    .inner {
-        padding: 0 24pt;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .inner {
-        padding: 0 16pt 0 16pt;
-    }
-    /* For mobile phones: */
-    section {
-        max-width: auto;
-        width: 100%;
     }
 }
