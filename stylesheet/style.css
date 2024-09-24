@@ -37,14 +37,6 @@ a {
     text-decoration: none;
 }
 
-.container {
-    max-width: 800px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-}
-
 section {
     margin-top: 2em;
 }
@@ -55,6 +47,18 @@ p {
 
 code {
     font-family: "Fira Code", monospace;
+}
+
+svg {
+    height: 32px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
 }
 
 .icons {
@@ -69,11 +73,14 @@ code {
 
         svg {
             fill: #848484;
-            transition: fill 0.3s ease;
+            scale: 1;
+            transition: all 0.3s ease;
         }
 
         svg:hover {
             fill: #333333;
+            scale: 1.1;
+            transition: all 0.3s ease;
         }
     }
 }
