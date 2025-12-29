@@ -49,7 +49,8 @@ code {
     font-family: "Fira Code", monospace;
 }
 
-svg {
+svg,
+img {
     height: 32px;
 }
 
@@ -71,16 +72,20 @@ svg {
         align-items: center;
         justify-content: center;
 
-        svg {
+        svg,
+        img {
             fill: #848484;
             scale: 1;
             transition: all 0.3s ease;
+            filter: brightness(0) saturate(100%) invert(54%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(91%) contrast(89%);
         }
 
-        svg:hover {
+        svg:hover,
+        img:hover {
             fill: #333333;
             scale: 1.1;
             transition: all 0.3s ease;
+            filter: brightness(0) saturate(100%) invert(20%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(95%) contrast(89%);
         }
     }
 }
